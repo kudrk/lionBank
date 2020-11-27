@@ -13,7 +13,7 @@
 
 .header-top {
   min-height: 412px;
-  background: url(/img/bg/lion-head-wide.jpg) right 20% top no-repeat;
+  background: url(./img/bg/lion-head-wide.jpg) right 20% top no-repeat;
   display: flex;
   flex-direction: column;
   padding-bottom: 23px;

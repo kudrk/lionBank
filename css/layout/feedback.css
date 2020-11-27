@@ -54,7 +54,7 @@
 }
 
 .username:after {
-  content: url(/img/feedback/vk-colored.png);
+  content: url(./img/feedback/vk-colored.png);
   height: 29px;
   margin-left: 8px;
 }
@@ -103,7 +103,7 @@
 }
 
 .separator {
-  background: #E5C288 url("/img/feedback/phone-n-hand.png") right 33% bottom 131% no-repeat;
+  background: #E5C288 url("./img/feedback/phone-n-hand.png") right 33% bottom 131% no-repeat;
   min-height: 363px;
   display: flex;
   flex-direction: column;

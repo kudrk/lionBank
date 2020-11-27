@@ -72,7 +72,7 @@
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url('/img/icons/css_sprites.png') -122px -10px;
+  background: url('./img/icons/css_sprites.png') -122px -10px;
 }
 
 .socials__icon_telegram .socials__link:hover:after {
@@ -92,7 +92,7 @@
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url('/img/icons/css_sprites.png') -10px -122px;
+  background: url('./img/icons/css_sprites.png') -10px -122px;
 }
 
 .socials__icon_vk .socials__link:hover:after {
@@ -112,7 +112,7 @@
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url('/img/icons/css_sprites.png') -10px -10px;
+  background: url('./img/icons/css_sprites.png') -10px -10px;
 }
 
 .socials__icon_fb .socials__link:hover:after {
@@ -132,7 +132,7 @@
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url('/img/icons/css_sprites.png') -10px -66px;
+  background: url('./img/icons/css_sprites.png') -10px -66px;
 }
 
 .socials__icon_inst .socials__link:hover:after {
