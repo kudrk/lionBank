@@ -1,0 +1,123 @@
+.feedbacks {
+  padding-inline-start: 0;
+  margin: 0 0 40px 0;
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.feedback {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 30px 30px 30px;
+  background: #F4F5F5;
+}
+
+.feedbacks__block {
+  margin-bottom: 20px;
+  max-width: 557px;
+  min-height: 480px;
+}
+
+.feedback__header {
+  display: flex;
+    margin-bottom: 23px;
+}
+
+.feedback__user-data{
+  padding-top: 30px;
+}
+
+.feedback__photo {
+  margin-right: 20px;
+}
+
+.avatar {
+  height: 142px;
+  width: 142px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #1A1B1E;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.username:hover {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.username:after {
+  content: url(/img/feedback/vk-colored.png);
+  height: 29px;
+  margin-left: 8px;
+}
+
+.feedback__tags {
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.feedback__tag {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 10px 20px;
+  background: #E7E7E7;
+  border-radius: 35px;
+}
+
+.tag_colored {
+  background: #B9EAE4;
+}
+
+.feedback__title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #202020;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.feedback__description {
+  margin-bottom: 50px;
+}
+
+.feedback__date {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1A1B1E;
+}
+
+.separator {
+  background: #E5C288 url("/img/feedback/phone-n-hand.png") right 33% bottom 131% no-repeat;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.separator__slogan {
+  min-height: 195px;
+  max-width: 40%;
+}
+
+.separator__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  margin: 0;
+}

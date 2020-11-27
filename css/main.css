@@ -1,0 +1,15 @@
+@import url('./basis/normalize.css');
+@import url('./basis/basis.css');
+
+@import url('./layout/header.css');
+@import url('./layout/hero.css');
+@import url('./layout/offers.css');
+@import url('./layout/news.css');
+@import url('./layout/paginator.css');
+@import url('./layout/about.css');
+@import url('./layout/footer.css');
+@import url('./layout/services.css');
+@import url('./layout/partners.css');
+@import url('./layout/welcomepage.css');
+@import url('./layout/feedback.css');
+@import url('./layout/form.css');
