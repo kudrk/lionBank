@@ -62,7 +62,7 @@ $mini:350px;
 
 .separator {
   @include laptops {
-    background: #E5C288 url(../../img/feedback/phone-n-hand.png) right 10% bottom 111% no-repeat;
+    background: #E5C288 url(../img/feedback/phone-n-hand.png) right 10% bottom 111% no-repeat;
   }
 }
 
@@ -99,7 +99,7 @@ $mini:350px;
 
 .wrapper {
   @include tablets {
-    background: url(../../img/bg/lion-header.jpg) left 53% top no-repeat, url(../../img/bg/bottom-pic.png) right bottom 12% no-repeat;
+    background: url(../img/bg/lion-header.jpg) left 53% top no-repeat, url(../img/bg/bottom-pic.png) right bottom 12% no-repeat;
   }
 }
 
@@ -113,7 +113,7 @@ $mini:350px;
 
 .wrapper {
   @include phones {
-    background: url(../../img/bg/lion-header.jpg) left 52% top no-repeat, url(../../img/bg/bottom-pic.png) right 30% bottom 9% no-repeat;
+    background: url(../img/bg/lion-header.jpg) left 52% top no-repeat, url(../img/bg/bottom-pic.png) right 30% bottom 9% no-repeat;
   }
 }
 
@@ -186,7 +186,7 @@ ul.offers {
 
 .header-top {
   @include laptops {
-    background: url(../../img/bg/lion-head-wide.jpg) right 33% top no-repeat;
+    background: url(../img/bg/lion-head-wide.jpg) right 33% top no-repeat;
   }
 }
 

@@ -395,7 +395,7 @@ button {
   background: #2B2B2B; }
 
 .wrapper {
-  background: url(../../img/bg/lion-header.jpg) center top no-repeat, url(../../img/bg/bottom-pic.png) right bottom 300px no-repeat; }
+  background: url(../img/bg/lion-header.jpg) center top no-repeat, url(../img/bg/bottom-pic.png) right bottom 300px no-repeat; }
 
 .wrapper_type_inner-page {
   background: none;
@@ -426,7 +426,7 @@ button {
 
 .header-top {
   min-height: 25.75rem;
-  background: url(../../img/bg/lion-head-wide.jpg) right 20% top no-repeat;
+  background: url(../img/bg/lion-head-wide.jpg) right 20% top no-repeat;
   display: flex;
   flex-direction: column;
   padding-bottom: 1.4375rem;
@@ -801,7 +801,7 @@ ul.news li:last-child {
   left: 0;
   width: 30.625rem;
   height: 31.5625rem;
-  background: url(../../img/about/chess.jpg) center center/cover no-repeat; }
+  background: url(../img/about/chess.jpg) center center/cover no-repeat; }
 
 .about__descripton {
   background: #202123;
@@ -888,7 +888,7 @@ ul.news li:last-child {
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url("../../img/icons/css_sprites.png") -122px -10px; }
+  background: url("../img/icons/css_sprites.png") -122px -10px; }
 
 .socials__icon_telegram .socials__link:hover:after {
   background-position: -122px -66px; }
@@ -905,7 +905,7 @@ ul.news li:last-child {
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url("../../img/icons/css_sprites.png") -10px -122px; }
+  background: url("../img/icons/css_sprites.png") -10px -122px; }
 
 .socials__icon_vk .socials__link:hover:after {
   background-position: -66px -122px; }
@@ -922,7 +922,7 @@ ul.news li:last-child {
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url("../../img/icons/css_sprites.png") -10px -10px; }
+  background: url("../img/icons/css_sprites.png") -10px -10px; }
 
 .socials__icon_fb .socials__link:hover:after {
   background-position: -66px -10px; }
@@ -939,7 +939,7 @@ ul.news li:last-child {
   transform: translate(-50%, -50%);
   width: 36px;
   height: 36px;
-  background: url("../../img/icons/css_sprites.png") -10px -66px; }
+  background: url("../img/icons/css_sprites.png") -10px -66px; }
 
 .socials__icon_inst .socials__link:hover:after {
   background-position: -66px -66px; }
@@ -1029,7 +1029,7 @@ ul.news li:last-child {
   margin-left: 0; }
 
 .welcomepage {
-  background: url(../../img/bg/splash.jpg) center bottom/cover no-repeat;
+  background: url(../img/bg/splash.jpg) center bottom/cover no-repeat;
   display: flex;
   position: fixed;
   height: 100%;
@@ -1114,7 +1114,7 @@ ul.news li:last-child {
   text-decoration: underline; }
 
 .username:after {
-  content: url(../../img/feedback/vk-colored.png);
+  content: url(../img/feedback/vk-colored.png);
   height: 1.8125rem;
   margin-left: 0.5rem; }
 
@@ -1155,7 +1155,7 @@ ul.news li:last-child {
   color: #1A1B1E; }
 
 .separator {
-  background: #E5C288 url("../../img/feedback/phone-n-hand.png") right 33% bottom 131% no-repeat;
+  background: #E5C288 url("../img/feedback/phone-n-hand.png") right 33% bottom 131% no-repeat;
   min-height: 22.6875rem;
   display: flex;
   flex-direction: column;
@@ -1259,7 +1259,7 @@ ul.news li:last-child {
 
 @media screen and (max-width: 1024px) {
   .separator {
-    background: #E5C288 url(../../img/feedback/phone-n-hand.png) right 10% bottom 111% no-repeat; } }
+    background: #E5C288 url(../img/feedback/phone-n-hand.png) right 10% bottom 111% no-repeat; } }
 
 @media screen and (max-width: 768px) {
   .menu__link {
@@ -1283,7 +1283,7 @@ ul.news li:last-child {
 
 @media screen and (max-width: 768px) {
   .wrapper {
-    background: url(../../img/bg/lion-header.jpg) left 53% top no-repeat, url(../../img/bg/bottom-pic.png) right bottom 12% no-repeat; } }
+    background: url(../img/bg/lion-header.jpg) left 53% top no-repeat, url(../img/bg/bottom-pic.png) right bottom 12% no-repeat; } }
 
 @media screen and (max-width: 480px) {
   .header .contacts {
@@ -1292,7 +1292,7 @@ ul.news li:last-child {
 
 @media screen and (max-width: 480px) {
   .wrapper {
-    background: url(../../img/bg/lion-header.jpg) left 52% top no-repeat, url(../../img/bg/bottom-pic.png) right 30% bottom 9% no-repeat; } }
+    background: url(../img/bg/lion-header.jpg) left 52% top no-repeat, url(../img/bg/bottom-pic.png) right 30% bottom 9% no-repeat; } }
 
 @media screen and (max-width: 480px) {
   .button_type_secondary {
@@ -1342,7 +1342,7 @@ ul.news li:last-child {
 
 @media screen and (max-width: 1024px) {
   .header-top {
-    background: url(../../img/bg/lion-head-wide.jpg) right 33% top no-repeat; } }
+    background: url(../img/bg/lion-head-wide.jpg) right 33% top no-repeat; } }
 
 @media screen and (max-width: 350px) {
   .slogan__title {
