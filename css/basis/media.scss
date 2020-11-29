@@ -160,7 +160,7 @@ $mini:350px;
 
 .header .contacts {
   @include phones {
-    font-size: xx-small;
+    font-size: 1.25rem;
     text-align: end;
   }
 }
@@ -197,7 +197,8 @@ ul.offers {
 
 .footer .logo {
   @include phones {
-    margin-right: 1rem;
+    display: none;
+    ;
   }
 }
 
@@ -226,6 +227,13 @@ ul.offers {
 .menu {
   @include phones {
     max-width: 5.625rem;
+  }
+}
+
+.menu__list {
+  @include phones {
+    font-size: 1.25rem;
+    line-height: 2rem;
   }
 }
 
@@ -335,8 +343,8 @@ ul.offers {
   }
 }
 
-.footer .logo {
-  @include mini {
+.logo {
+  @include phones {
     display: none;
   }
 }

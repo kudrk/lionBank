@@ -1326,7 +1326,7 @@ ul.news li:last-child {
 
 @media screen and (max-width: 480px) {
   .header .contacts {
-    font-size: xx-small;
+    font-size: 1.25rem;
     text-align: end; } }
 
 @media screen and (max-width: 480px) {
@@ -1352,7 +1352,7 @@ ul.news li:last-child {
 
 @media screen and (max-width: 480px) {
   .footer .logo {
-    margin-right: 1rem; } }
+    display: none; } }
 
 @media screen and (max-width: 480px) {
   .socials {
@@ -1373,6 +1373,11 @@ ul.news li:last-child {
 @media screen and (max-width: 480px) {
   .menu {
     max-width: 5.625rem; } }
+
+@media screen and (max-width: 480px) {
+  .menu__list {
+    font-size: 1.25rem;
+    line-height: 2rem; } }
 
 @media screen and (max-width: 350px) {
   .news {
@@ -1449,6 +1454,6 @@ ul.news li:last-child {
     flex-direction: column;
     padding: 1rem; } }
 
-@media screen and (max-width: 350px) {
-  .footer .logo {
+@media screen and (max-width: 480px) {
+  .logo {
     display: none; } }
