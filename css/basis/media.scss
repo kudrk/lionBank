@@ -42,11 +42,15 @@ $mini:350px;
 
 .socials {
   @include laptops {
-
     padding: 0;
   }
 }
 
+.partners {
+  @include phones {
+    justify-content: center;
+  }
+}
 
 .partners__item:nth-child(7n) {
   @include laptops {
@@ -60,12 +64,56 @@ $mini:350px;
   }
 }
 
-.separator {
-  @include laptops {
-    background: #E5C288 url(../img/feedback/phone-n-hand.png) right 10% bottom 111% no-repeat;
+.partners__item {
+  @include tablets {
+    margin-left: 3.8125rem;
   }
 }
 
+.partners__item:nth-child(7n) {
+  @include tablets {
+    margin-left: 3.8125rem;
+  }
+}
+
+.partners__item {
+  @include phones {
+    margin-left: 0;
+  }
+}
+
+.partners__item:nth-child(4n + 1) {
+  @include phones {
+    margin-left: 0;
+  }
+}
+
+.partners__item:nth-child(7n) {
+  @include phones {
+    margin-left: 0;
+  }
+}
+
+.separator {
+  @include laptops {
+    background: #E5C288 url(../img/feedback/phone-n-hand.png) left 125% bottom 111% no-repeat;
+  }
+}
+
+.separator {
+  @include phones {
+    background: #E5C288 url(../img/feedback/phone-n-hand.png) left 110% bottom 0 no-repeat;
+    background-size: 50%;
+  }
+}
+
+.separator__title {
+  @include phones {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+}
 
 .menu__link {
   @include tablets {
@@ -103,6 +151,12 @@ $mini:350px;
   }
 }
 
+.wrapper.wrapper_type_inner-page {
+  @include laptops {
+    background: none;
+    background-color: #fff;
+  }
+}
 
 .header .contacts {
   @include phones {
@@ -119,7 +173,6 @@ $mini:350px;
 
 .button_type_secondary {
   @include phones {
-    padding: 1rem 1rem;
     text-align: center;
     max-width: 10rem;
   }
@@ -150,17 +203,23 @@ ul.offers {
 
 .socials {
   @include phones {
-    display: flex;
+    display: block;
     padding: 0;
-    margin: 0px 5% 0px 0;
-    flex-wrap: wrap;
-    max-width: 35%;
+    margin: 0 5% 0 0;
+    max-width: 50%;
+    column-count: 2;
   }
+}
 
-  .socials__icon :nth-child(n+1) {
-    @include phones {
-      margin-bottom: 0.5rem;
-    }
+.socials__icon {
+  @include phones {
+    margin: 0;
+  }
+}
+
+.socials__icon :nth-child(n+1) {
+  @include phones {
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -186,12 +245,98 @@ ul.offers {
 
 .header-top {
   @include laptops {
-    background: url(../img/bg/lion-head-wide.jpg) right 33% top no-repeat;
+    background: url(../img/bg/lion-head-wide.jpg) right 39% top no-repeat;
   }
 }
 
 .slogan__title {
   @include mini {
     font-size: 2.25rem;
+  }
+}
+
+.hello-logo__pic {
+  @include phones {
+    width: 140px;
+  }
+}
+
+.service {
+  @include tablets {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.service__img {
+  @include tablets {
+    /* display: block; */
+    width: 100%;
+  }
+}
+
+.sevice__pic {
+  @include tablets {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.service__description {
+  @include tablets {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 2%;
+  }
+}
+
+.feedbacks {
+  @include tablets {
+    column-count: 1;
+    text-align: center;
+  }
+}
+
+.separator__slogan {
+  @include tablets {
+    max-width: 55%;
+  }
+}
+
+.form__row {
+  @include phones {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+}
+
+.form__input {
+  @include phones {
+    flex: 1;
+    margin-bottom: 1.75rem;
+    margin-right: 0;
+  }
+}
+
+.controls {
+  @include phones {
+    padding: 0;
+  }
+}
+
+.feedback {
+  @include mini {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+
+.footer .logo {
+  @include mini {
+    display: none;
   }
 }
