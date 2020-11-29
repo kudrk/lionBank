@@ -1,0 +1,197 @@
+//breakpoints
+$laptops:1024px;
+$tablets:768px;
+$phones:480px;
+$mini:350px;
+
+@mixin laptops {
+  @media screen and (max-width: $laptops) {
+    @content;
+  }
+}
+
+@mixin tablets {
+  @media screen and (max-width: $tablets) {
+    @content;
+  }
+}
+
+@mixin phones {
+  @media screen and (max-width: $phones) {
+    @content;
+  }
+}
+
+@mixin mini {
+  @media screen and (max-width: $mini) {
+    @content;
+  }
+}
+
+.container {
+  @include laptops {
+    width: 85%;
+  }
+}
+
+.offers__card-description {
+  @include laptops {
+    margin-right: 0;
+  }
+}
+
+.socials {
+  @include laptops {
+
+    padding: 0;
+  }
+}
+
+
+.partners__item:nth-child(7n) {
+  @include laptops {
+    margin-left: 11.375rem;
+  }
+}
+
+.partners__item:nth-child(4n + 1) {
+  @include laptops {
+    margin-left: 3.8125rem;
+  }
+}
+
+.separator {
+  @include laptops {
+    background: #E5C288 url(../../img/feedback/phone-n-hand.png) right 10% bottom 111% no-repeat;
+  }
+}
+
+
+.menu__link {
+  @include tablets {
+    margin-right: 1.1875rem;
+  }
+}
+
+.logo {
+  @include tablets {
+    margin-right: 3rem;
+  }
+}
+
+.header .contacts {
+  @include tablets {
+    font-size: 1.3rem;
+  }
+}
+
+.offers__card-conditions {
+  @include tablets {
+    flex-wrap: wrap;
+  }
+}
+
+.about:before {
+  @include tablets {
+    display: none;
+  }
+}
+
+.wrapper {
+  @include tablets {
+    background: url(../../img/bg/lion-header.jpg) left 53% top no-repeat, url(../../img/bg/bottom-pic.png) right bottom 12% no-repeat;
+  }
+}
+
+
+.header .contacts {
+  @include phones {
+    font-size: xx-small;
+    text-align: end;
+  }
+}
+
+.wrapper {
+  @include phones {
+    background: url(../../img/bg/lion-header.jpg) left 52% top no-repeat, url(../../img/bg/bottom-pic.png) right 30% bottom 9% no-repeat;
+  }
+}
+
+.button_type_secondary {
+  @include phones {
+    padding: 1rem 1rem;
+    text-align: center;
+    max-width: 10rem;
+  }
+}
+
+
+ul.offers {
+  @include phones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.offers__card {
+  @include phones {
+    flex: 1 0 100%;
+    margin-bottom: 2rem;
+    width: inherit;
+  }
+}
+
+.footer .logo {
+  @include phones {
+    margin-right: 1rem;
+  }
+}
+
+.socials {
+  @include phones {
+    display: flex;
+    padding: 0;
+    margin: 0px 5% 0px 0;
+    flex-wrap: wrap;
+    max-width: 35%;
+  }
+
+  .socials__icon :nth-child(n+1) {
+    @include phones {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+.menu {
+  @include phones {
+    max-width: 5.625rem;
+  }
+}
+
+.news {
+  @include mini {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.news__items {
+  @include mini {
+    margin: 0 0 1rem 0;
+  }
+}
+
+
+.header-top {
+  @include laptops {
+    background: url(../../img/bg/lion-head-wide.jpg) right 33% top no-repeat;
+  }
+}
+
+.slogan__title {
+  @include mini {
+    font-size: 2.25rem;
+  }
+}

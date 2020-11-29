@@ -1,22 +1,22 @@
 .header {
-  padding-top: 37px;
+  padding-top: 2.3125rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .header-top .header {
-  padding-top: 28px;
-  margin-bottom: 84px;
+  padding-top: 1.75rem;
+  margin-bottom: 5.25rem;
 }
 
 .header-top {
-  min-height: 412px;
+  min-height: 25.75rem;
   background: url(../../img/bg/lion-head-wide.jpg) right 20% top no-repeat;
   display: flex;
   flex-direction: column;
-  padding-bottom: 23px;
+  padding-bottom: 1.4375rem;
   background-color: #202123;
 }
 
@@ -30,9 +30,9 @@
 .header-inner__title {
   color: #fff;
   font-weight: bold;
-  font-size: 72px;
+  font-size: 4.5rem;
   display: flex;
-  margin-bottom: 76px;
+  margin-bottom: 4.75rem;
   margin-top: 0;
 }
 
@@ -47,11 +47,11 @@
 
 .logo {
   display: block;
-  margin-right: 96px;
+  margin-right: 6rem;
 }
 
 .menu {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #fff;
 
 }
@@ -59,7 +59,7 @@
 .menu__link {
   display: inline;
   vertical-align: middle;
-  margin-right: 51px;
+  margin-right: 3.1875rem;
   text-decoration: none;
   transition: color .5s;
 }
@@ -69,7 +69,7 @@
 }
 
 .menu__link:last-child {
-  margin-right: 0px;
+  margin-right: 0rem;
 }
 
 .menu__link-title {
@@ -81,7 +81,7 @@
 }
 
 .header .contacts {
-  font-size: 26px;
+  font-size: 1.625rem;
   color: #fff
 }
 
@@ -90,8 +90,8 @@
 }
 
 .contacts__workhours {
-  font-size: 13px;
-  line-height: 13px;
+  font-size: 0.8125rem;
+  line-height: 0.8125rem;
   text-decoration: underline;
   text-align: right;
   position: relative;
@@ -110,18 +110,18 @@
 .dropdown__info {
   position: absolute;
   background: #EDEDED;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   color: #1E1F20;
   font-weight: 600;
-  font-size: 13px;
-  line-height: 21px;
+  font-size: 0.8125rem;
+  line-height: 1.3125rem;
   opacity: 0;
   transition: opacity 1s;
-  padding: 15px 20px;
-  width: 160px;
+  padding: 0.9375rem 1.25rem;
+  width: 10rem;
   top: 100%;
-  left: -99999px;
-  margin-top: 7px;
+  left: -6249.9375rem;
+  margin-top: 0.4375rem;
 }
 
 .dropdown__item {
@@ -131,23 +131,23 @@
 .dropdown__info:before {
   content: "";
   display: block;
-  height: 30px;
+  height: 1.875rem;
   left: 0;
   right: 0;
-  top: -29px;
+  top: -1.8125rem;
   position: absolute;
 }
 
 .dropdown__info:after {
   content: "";
   display: block;
-  height: 30px;
-  width: 30px;
+  height: 1.875rem;
+  width: 1.875rem;
   left: 0;
   right: 0;
   transform: rotate(-45deg);
-  top: -1px;
-  left: 93px;
+  top: -0.0625rem;
+  left: 5.8125rem;
   z-index: -10;
   position: absolute;
   background: #EDEDED;
@@ -165,25 +165,25 @@
 
 ul.menu__list {
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
 }
 
 .hero__container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 587px;
+  min-height: 36.6875rem;
 }
 
 .breadcrumbs {
   color: #9A9A9A;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .breadcrumbs__list {
-  padding: 0px;
-  margin: 0px;
+  padding: 0rem;
+  margin: 0rem;
   list-style-type: none;
 }
 

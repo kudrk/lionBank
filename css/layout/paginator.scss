@@ -5,17 +5,17 @@
 }
 
 .paginator_inner {
-  margin-bottom: 90px;
+  margin-bottom: 5.625rem;
 }
 
 .paginator__display {
-  margin-right: 24px;
+  margin-right: 1.5rem;
 }
 
 .paginator__list {
   list-style-type: none;
-  line-height: 32px;
-  padding: 0px;
+  line-height: 2rem;
+  padding: 0rem;
   display: flex;
   align-items: center;
 }
@@ -31,11 +31,11 @@
 .paginator__item {
   text-align: center;
   font-weight: bold;
-  height: 32px;
-  width: 32px;
+  height: 2rem;
+  width: 2rem;
   border-radius: 50%;
-  font-size: 16px;
-  margin-right: 3px;
+  font-size: 1rem;
+  margin-right: 0.1875rem;
   overflow: hidden;
   transition: background-color .2s;
 }
@@ -46,12 +46,12 @@
 }
 
 .paginator__item:last-child {
-  margin-right: 0px;
+  margin-right: 0rem;
 }
 
 .paginator__item_active {
-  font-size: 16px;
+  font-size: 1rem;
   background-color: #353439;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   color: #fff;
 }

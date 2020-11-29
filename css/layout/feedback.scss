@@ -1,39 +1,39 @@
 .feedbacks {
   padding-inline-start: 0;
-  margin: 0 0 40px 0;
+  margin: 0 0 2.5rem 0;
   column-count: 2;
-  column-gap: 30px;
+  column-gap: 1.875rem;
 }
 
 .feedback {
   display: inline-flex;
   flex-direction: column;
-  padding: 50px 30px 30px 30px;
+  padding: 3.125rem 1.875rem 1.875rem 1.875rem;
   background: #F4F5F5;
 }
 
 .feedbacks__block {
-  margin-bottom: 20px;
-  max-width: 557px;
-  min-height: 480px;
+  margin-bottom: 1.25rem;
+  max-width: 34.8125rem;
+  min-height: 30rem;
 }
 
 .feedback__header {
   display: flex;
-    margin-bottom: 23px;
+    margin-bottom: 1.4375rem;
 }
 
 .feedback__user-data{
-  padding-top: 30px;
+  padding-top: 1.875rem;
 }
 
 .feedback__photo {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 .avatar {
-  height: 142px;
-  width: 142px;
+  height: 8.875rem;
+  width: 8.875rem;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -41,11 +41,11 @@
 .username {
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #1A1B1E;
   text-decoration: none;
   font-weight: bold;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .username:hover {
@@ -55,8 +55,8 @@
 
 .username:after {
   content: url(../../img/feedback/vk-colored.png);
-  height: 29px;
-  margin-left: 8px;
+  height: 1.8125rem;
+  margin-left: 0.5rem;
 }
 
 .feedback__tags {
@@ -68,16 +68,16 @@
 }
 
 .feedback__tag {
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
 }
 
 .tag {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #303030;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   background: #E7E7E7;
-  border-radius: 35px;
+  border-radius: 2.1875rem;
 }
 
 .tag_colored {
@@ -86,38 +86,38 @@
 
 .feedback__title {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #202020;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .feedback__description {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 .feedback__date {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #1A1B1E;
 }
 
 .separator {
   background: #E5C288 url("../../img/feedback/phone-n-hand.png") right 33% bottom 131% no-repeat;
-  min-height: 363px;
+  min-height: 22.6875rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .separator__slogan {
-  min-height: 195px;
+  min-height: 12.1875rem;
   max-width: 40%;
 }
 
 .separator__title {
   font-weight: bold;
-  font-size: 48px;
-  line-height: 65px;
+  font-size: 3rem;
+  line-height: 4.0625rem;
   margin: 0;
 }

@@ -1,15 +1,15 @@
 .footer_main {
-  min-height: 140px;
-  padding: 30px 0;
+  min-height: 8.75rem;
+  padding: 1.875rem 0;
   display: flex;
   align-items: center;
-  border-top: 1px solid #ffffff09;
+  border-top: 0.0625rem solid #ffffff09;
 }
 
 .footer_inner {
   background: #29282D;
-  min-height: 140px;
-  padding: 30px 0;
+  min-height: 8.75rem;
+  padding: 1.875rem 0;
   display: flex;
   align-items: center;
 }
@@ -36,7 +36,8 @@
 
 .socials {
   display: flex;
-  margin-right: 75px;
+  padding: 0;
+  margin: 0px 10% 0 0;
 }
 
 .socials__icon {
@@ -139,15 +140,11 @@
   background-position: -66px -66px;
 }
 
-.footer .contacts {
-  font-size: 26px;
-}
-
 .contacts__call {
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
-  line-height: 15px;
+  font-size: 0.6875rem;
+  line-height: 0.9375rem;
   text-decoration: none;
-  text-align: right;
+  text-align: start;
 }

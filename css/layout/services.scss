@@ -1,11 +1,11 @@
 .service {
   display: flex;
-  margin-bottom: 11px;
-  padding: 60px 30px;
+  margin-bottom: 0.6875rem;
+  padding: 3.75rem 1.875rem;
 }
 
 .service:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
 }
 
 .service:hover {
@@ -27,18 +27,18 @@
 }
 
 .service__title {
-  font-size: 29px;
-  line-height: 39px;
+  font-size: 1.8125rem;
+  line-height: 2.4375rem;
   font-weight: bold;
-  margin-bottom: 24px;
-  margin-top: 0px;
+  margin-bottom: 1.5rem;
+  margin-top: 0rem;
   color: #202020;
 }
 
 .service__text {
-  font-size: 16px;
-  line-height: 27px;
-  margin-bottom: 85px;
-  margin-top: 0px;
+  font-size: 1rem;
+  line-height: 1.6875rem;
+  margin-bottom: 5.3125rem;
+  margin-top: 0rem;
   color: #303030;
 }
